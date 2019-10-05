@@ -24,5 +24,8 @@ var myAnyObject : AnyObject = MyClass()
 myAnyObject = MyClass2()
 
 // nil 타입 : null(NULL)과 같음. 비어있는 객체(레퍼런스-참조) 변수. 주소값이 nil.
+var myNil : Int? = nil
+// nil이 될 수도 있는 변수는 옵셔널변수로 지정해야 한다.> null check
+
 
 
