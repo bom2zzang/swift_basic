@@ -20,3 +20,11 @@ class Student {
 
 var objStudent = Student()
 dump( objStudent )
+
+
+// 문자열 보간 Interpolation
+var age = 10
+// 문자열 데이터는 쌍따옴표로 표현한다 ""
+"저의 나이는 \(age)입니다"
+
+
