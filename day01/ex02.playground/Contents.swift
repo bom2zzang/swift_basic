@@ -31,6 +31,27 @@ var myStr2 = "ios  앱앱앱앱"
     한국어: 주어 - 목적어 - 동사 todaySchoolGoto
  */
 
+// 변수를 선언할 때 값(초기값)을 함께 준다.
+var myInt : Int = 10 ///메모리공간
+
+// 변수 선언시에는 값을 주지 않고, 나중에 설정
+var myFloat : Float
+myFloat = 3.14
+
+// 변수 여러개
+var myInt1, myInt2, myInt3 : Int
+myInt1 = 10
+myInt2 = 20
+myInt3 = 30
+
+// 상수의 선언
+// let [상수이름] : 타입(자료형)
+
+let myName : String = "은섬"
+// myName = "사야"
+// 상수의 용도 : 고정된 값을 보장하기 위해 ex) 원주율, 중력가속도
+
+
 
 
 
