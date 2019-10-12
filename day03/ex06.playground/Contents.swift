@@ -56,6 +56,11 @@ class SchoolMan {
         self.name = name
         self.age = age
     }
+    deinit {    // 소멸자 - 객체(클래스,구조체,열거형)이 사라질 때 nil 될 때 자동으로 호출됨.
+        self.name = ""
+        self.age = 0
+        print("자동으로 호출됨.")
+    }
 }
 
 var schoolMan = SchoolMan(name: "ㅅㅋㅁ", age: 20)
