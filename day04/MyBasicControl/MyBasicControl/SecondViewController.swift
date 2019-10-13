@@ -66,4 +66,9 @@ class SecondViewController: UIViewController, UITextFieldDelegate {
         
     }
     
+    @IBAction func onStepChanged(_ sender: UIStepper) {
+        print("onStepChanged", sender.value)
+        
+        tvData.text = String(sender.value)
+    }
 }
