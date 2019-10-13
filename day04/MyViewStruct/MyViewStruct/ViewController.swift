@@ -16,30 +16,42 @@ class ViewController: UIViewController {
     //뷰가 시작될때 한번 호출됨.
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("viewDidLoad")
     }
     
     //뷰가 로드되고, 화면이 보이기 직전에 호출됨.
     override func viewWillAppear(_ animated: Bool) {
+        print("viewWillAppear")
     }
 
     //뷰가 로드되고, 화면이 보이고나서 호출됨.
     override func viewDidAppear(_ animated: Bool) {
+        print("viewDidAppear")
     }
     
     //화면에 보이고, 레이아웃들이 설정되기 전에 호출됨.
     override func viewWillLayoutSubviews() {
+        print("viewWillLayoutSubviews")
     }
     
     //화면에 보이고, 레이아웃들이 설정된 후에 호출됨.
     override func viewDidLayoutSubviews() {
+        print("viewWillLayoutSubviews")
     }
     
     //화면이 사라지기 전에 한번 호출됨.
     override func viewWillDisappear(_ animated: Bool) {
+        print("viewWillDisappear")
     }
     
     //화면이 사라지고 나서 호출됨.
     override func viewDidDisappear(_ animated: Bool) {
+        print("viewDidDisappear")
+    }
+    
+    //뷰를 로드할 때 커스텀할 때 사용함.(잘안씀)
+    override func loadView() {
+        print("loadView")
     }
     
 
