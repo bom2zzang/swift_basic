@@ -1,15 +1,12 @@
-//
-//  AppDelegate.swift
-//  MyViewStruct
-//
-//  Created by TJOEUN-304 on 13/10/2019.
-//  Copyright © 2019 bombom. All rights reserved.
-//
+
 
 import UIKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
+    
+    //전역변수
+    var globalData:String = ""
 
 
 

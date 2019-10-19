@@ -31,7 +31,7 @@
                                     <color key="titleColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Xfh-hr-uXc" kind="show" id="HCP-G8-drM"/>
+                                    <segue destination="Xfh-hr-uXc" kind="show" identifier="toThirdVC" id="HCP-G8-drM"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XC2-g6-Pjw">
@@ -129,7 +129,7 @@
                                     <color key="titleColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="4kP-D8-KVg" kind="show" id="ZcP-an-N4L"/>
+                                    <segue destination="4kP-D8-KVg" kind="show" identifier="toSecondVC" id="ZcP-an-N4L"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MBK-fH-5Yp">
@@ -157,10 +157,9 @@
         <!--Navigation Controller-->
         <scene sceneID="Iqm-s9-hpd">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="UGh-eC-Mpt" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="UGh-eC-Mpt" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="wwR-eo-pep">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
