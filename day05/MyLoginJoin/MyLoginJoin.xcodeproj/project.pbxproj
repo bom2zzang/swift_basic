@@ -15,6 +15,7 @@
 		A5DDD4EC235AD3F400974328 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5DDD4EA235AD3F400974328 /* LaunchScreen.storyboard */; };
 		A5DDD4F4235ADCEA00974328 /* JoinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DDD4F3235ADCEA00974328 /* JoinViewController.swift */; };
 		A5DDD4F6235ADD0400974328 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DDD4F5235ADD0400974328 /* LoginViewController.swift */; };
+		A5DDD4F8235AEC6100974328 /* AgreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DDD4F7235AEC6100974328 /* AgreeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		A5DDD4ED235AD3F400974328 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5DDD4F3235ADCEA00974328 /* JoinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoinViewController.swift; sourceTree = "<group>"; };
 		A5DDD4F5235ADD0400974328 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A5DDD4F7235AEC6100974328 /* AgreeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgreeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				A5DDD4E1235AD3EB00974328 /* SceneDelegate.swift */,
 				A5DDD4E3235AD3EB00974328 /* MainViewController.swift */,
 				A5DDD4E5235AD3EB00974328 /* Main.storyboard */,
+				A5DDD4F7235AEC6100974328 /* AgreeViewController.swift */,
 				A5DDD4F3235ADCEA00974328 /* JoinViewController.swift */,
 				A5DDD4F5235ADD0400974328 /* LoginViewController.swift */,
 				A5DDD4E8235AD3F400974328 /* Assets.xcassets */,
@@ -149,6 +152,7 @@
 				A5DDD4F4235ADCEA00974328 /* JoinViewController.swift in Sources */,
 				A5DDD4F6235ADD0400974328 /* LoginViewController.swift in Sources */,
 				A5DDD4E2235AD3EB00974328 /* SceneDelegate.swift in Sources */,
+				A5DDD4F8235AEC6100974328 /* AgreeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

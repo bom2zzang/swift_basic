@@ -19,6 +19,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     //로그인되어있으면 true, 아니면 false
     var isLogin:Bool = false
     
+    var isAgree:Bool = false
+
+    
     
 
 

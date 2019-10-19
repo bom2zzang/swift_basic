@@ -173,16 +173,86 @@
                                 <state key="normal" title="회원가입">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="onBtnJoin:" destination="xUQ-Js-27o" eventType="touchUpInside" id="XrS-8e-h4R"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jcd-67-buu">
+                                <rect key="frame" x="181" y="597" width="52" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="약관보기">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="onBtnAgree:" destination="xUQ-Js-27o" eventType="touchUpInside" id="3G2-a3-3M7"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="XAU-I3-kgn"/>
                     </view>
                     <navigationItem key="navigationItem" id="kT8-GG-PXH"/>
+                    <connections>
+                        <outlet property="textfieldID" destination="0Ze-Cf-OFv" id="FV2-dE-zHV"/>
+                        <outlet property="textfieldName" destination="ge5-3i-rzH" id="klj-E4-YbH"/>
+                        <outlet property="textfieldPW" destination="fMm-xV-lhb" id="WM5-l4-fOj"/>
+                        <outlet property="textfieldPhone" destination="XGM-g3-09P" id="w2V-BS-lAe"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OkC-ce-wQq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2405.7971014492755" y="137.94642857142856"/>
+        </scene>
+        <!--Agree View Controller-->
+        <scene sceneID="PjV-lr-Bic">
+            <objects>
+                <viewController storyboardIdentifier="AgreeVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Veu-9Z-isr" customClass="AgreeViewController" customModule="MyLoginJoin" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wVB-ya-Rvd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="약관" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BiB-cW-Ruy">
+                                <rect key="frame" x="153" y="70" width="109" height="129"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="63"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qrr-mL-hcF">
+                                <rect key="frame" x="192" y="765" width="30" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="닫기">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="onBtnBack:" destination="Veu-9Z-isr" eventType="touchUpInside" id="WG5-c9-EOP"/>
+                                </connections>
+                            </button>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="6lb-Ot-AcF">
+                                <rect key="frame" x="142" y="670" width="49" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <action selector="onSwitchAgree:" destination="Veu-9Z-isr" eventType="valueChanged" id="lcj-R2-l1z"/>
+                                </connections>
+                            </switch>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="약관동의하기" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gCT-xi-3yt">
+                                <rect key="frame" x="205" y="675" width="109" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="lbI-47-rrA"/>
+                    </view>
+                    <connections>
+                        <outlet property="agreests" destination="6lb-Ot-AcF" id="Z7Z-Su-sOg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YMn-2F-ETt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3013.04347826087" y="137.94642857142856"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="w3T-z8-7SP">
