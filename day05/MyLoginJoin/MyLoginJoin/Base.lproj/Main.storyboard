@@ -47,6 +47,9 @@
                                 <state key="normal" title="로그오프">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="onBtnLogoff:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jBG-O0-Ia1"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
