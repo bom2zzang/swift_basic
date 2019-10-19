@@ -13,6 +13,8 @@
 		A5560BFE235ABA5C004FFE72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5560BFC235ABA5C004FFE72 /* Main.storyboard */; };
 		A5560C00235ABA70004FFE72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5560BFF235ABA70004FFE72 /* Assets.xcassets */; };
 		A5560C03235ABA71004FFE72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5560C01235ABA71004FFE72 /* LaunchScreen.storyboard */; };
+		A5DDD4D0235ACE5B00974328 /* MyTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DDD4CF235ACE5B00974328 /* MyTabbarController.swift */; };
+		A5DDD4D2235AD22300974328 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DDD4D1235AD22300974328 /* FourthViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		A5560BFF235ABA70004FFE72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5560C02235ABA71004FFE72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5560C04235ABA71004FFE72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5DDD4CF235ACE5B00974328 /* MyTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabbarController.swift; sourceTree = "<group>"; };
+		A5DDD4D1235AD22300974328 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,7 @@
 		A5560BEA235ABA5C004FFE72 = {
 			isa = PBXGroup;
 			children = (
+				A5DDD4CF235ACE5B00974328 /* MyTabbarController.swift */,
 				A5560BF5235ABA5C004FFE72 /* MyTabbar */,
 				A5560BF4235ABA5C004FFE72 /* Products */,
 			);
@@ -60,6 +65,7 @@
 				A5560BF8235ABA5C004FFE72 /* SceneDelegate.swift */,
 				A5560BFA235ABA5C004FFE72 /* ViewController.swift */,
 				A5560BFC235ABA5C004FFE72 /* Main.storyboard */,
+				A5DDD4D1235AD22300974328 /* FourthViewController.swift */,
 				A5560BFF235ABA70004FFE72 /* Assets.xcassets */,
 				A5560C01235ABA71004FFE72 /* LaunchScreen.storyboard */,
 				A5560C04235ABA71004FFE72 /* Info.plist */,
@@ -139,8 +145,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5560BFB235ABA5C004FFE72 /* ViewController.swift in Sources */,
+				A5DDD4D0235ACE5B00974328 /* MyTabbarController.swift in Sources */,
 				A5560BF7235ABA5C004FFE72 /* AppDelegate.swift in Sources */,
 				A5560BF9235ABA5C004FFE72 /* SceneDelegate.swift in Sources */,
+				A5DDD4D2235AD22300974328 /* FourthViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
