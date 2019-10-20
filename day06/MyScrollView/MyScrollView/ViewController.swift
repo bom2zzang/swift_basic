@@ -16,8 +16,8 @@ class ViewController: UIViewController, UIScrollViewDelegate {
     
     //scrollView가 호출되었을 때 호출됨.
     func scrollViewDidScroll(_ scrollView: UIScrollView) {
-        print("scrollViewDidScroll")
-        print("현재위치 : ",scrollView.contentOffset)
+        //print("scrollViewDidScroll")
+        print("scrollViewDidScroll 현재위치 : ",scrollView.contentOffset)
     }
 
     //드래깅 하기 전 호출함.
@@ -28,6 +28,7 @@ class ViewController: UIViewController, UIScrollViewDelegate {
     //드래깅 끝나기 전 호출.
     func scrollViewWillEndDragging(_ scrollView: UIScrollView, withVelocity velocity: CGPoint, targetContentOffset: UnsafeMutablePointer<CGPoint>) {
         print("scrollViewWillEndDragging")
+        print("속도:",velocity)
     }
 }
 
