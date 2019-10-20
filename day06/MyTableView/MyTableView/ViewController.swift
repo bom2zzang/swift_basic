@@ -15,14 +15,18 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     let names:Array<String> = [
     "남주혁","윤시윤","시우민","장동윤","로운","양세종"
+    ,"남주혁","윤시윤","시우민","장동윤","로운","양세종"
+
     ]
     
     let collections:Array<String> = [
     "눈이부시게, 하백의신부","녹두꽃, 이웃집꽃미남 ","누가봐도우린, 이유","녹두전, 땐뽀걸즈","어쩌다발견한하루","서른이지만열일곱입니다"
+    ,"눈이부시게, 하백의신부","녹두꽃, 이웃집꽃미남 ","누가봐도우린, 이유","녹두전, 땐뽀걸즈","어쩌다발견한하루","서른이지만열일곱입니다"
     ]
     
     let images:Array<String> = [
     "1.png","2.png","3.png","4.png","5.png","6.png"
+    ,"1.png","2.png","3.png","4.png","5.png","6.png"
     ]
 
     override func viewDidLoad() {
@@ -69,6 +73,11 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         return 100
     }
 
+    //테이블뷰 셀이 선택되었을 때 이벤트
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        print("선택된 셀의 위치: 섹션", indexPath.section)
+        print("선택된 셀의 위치: 로우", indexPath.row)
+    }
 
 }
 
