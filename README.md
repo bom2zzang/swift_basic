@@ -32,9 +32,9 @@ products > app : 실행파일( 한프로젝트 -> 여러실행파일을 만들 �
             Core Data  
             User Defaults : key&value (쿠키처럼간단하게 로컬에 저장, 위 세개는 복잡)  
         + 레이아웃  
-        1. 오토 리사이징 <- 간단한 배치  
-        2. 오토 레이아웃 <- 복잡한 배치  
-        3. SwiftUI 코드 기반)  
+         1. 오토 리사이징 <- 간단한 배치  
+         2. 오토 레이아웃 <- 복잡한 배치  
+         3. SwiftUI 코드 기반)  
   
  * day07
      + Cocoa Pod 이용하기 (깃허브 무료소스)  
@@ -56,7 +56,12 @@ products > app : 실행파일( 한프로젝트 -> 여러실행파일을 만들 �
     안드로이드 사이드메뉴 : Nav Drawer(기본템플릿)  
     아이폰 스위프트 : Sidemenu
     + Cocoa Pod : Alamofire + JSON SwfityJSON (Http통신 Lib)
-    
+    + 구글맵 연동, GPS 위치기반 서비스
+    + 애플맵 - Mapkit, 구글맵, 다음맵, 네이버맵  
+      - info.plist : Privacy - Location Always Usage Description  
+      ,Privacy - Location When In Use Usage Description 추가함.
+      - GoogleMap > Maps SDK for iOS 사용
+
 
 
 
