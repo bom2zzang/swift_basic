@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B612F30D9011F407E57C185 /* Pods_MyToastSDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7185D3A980EBBFC6EFE12D59 /* Pods_MyToastSDWebImage.framework */; };
+		A55680FF2363D62E00EA6ED9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55680FE2363D62E00EA6ED9 /* AppDelegate.swift */; };
+		A55681012363D62E00EA6ED9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55681002363D62E00EA6ED9 /* SceneDelegate.swift */; };
+		A55681032363D62E00EA6ED9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55681022363D62E00EA6ED9 /* ViewController.swift */; };
+		A55681062363D62E00EA6ED9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A55681042363D62E00EA6ED9 /* Main.storyboard */; };
+		A55681082363D63000EA6ED9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A55681072363D63000EA6ED9 /* Assets.xcassets */; };
+		A556810B2363D63000EA6ED9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A55681092363D63000EA6ED9 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6D88C644D9C991E43112166C /* Pods-MyToastSDWebImage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyToastSDWebImage.release.xcconfig"; path = "Target Support Files/Pods-MyToastSDWebImage/Pods-MyToastSDWebImage.release.xcconfig"; sourceTree = "<group>"; };
+		7185D3A980EBBFC6EFE12D59 /* Pods_MyToastSDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyToastSDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AEC3EEE8B42C1105DEEF615 /* Pods-MyToastSDWebImage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyToastSDWebImage.debug.xcconfig"; path = "Target Support Files/Pods-MyToastSDWebImage/Pods-MyToastSDWebImage.debug.xcconfig"; sourceTree = "<group>"; };
+		A55680FB2363D62E00EA6ED9 /* MyToastSDWebImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyToastSDWebImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A55680FE2363D62E00EA6ED9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A55681002363D62E00EA6ED9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A55681022363D62E00EA6ED9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A55681052363D62E00EA6ED9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A55681072363D63000EA6ED9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A556810A2363D63000EA6ED9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A556810C2363D63000EA6ED9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A55680F82363D62E00EA6ED9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B612F30D9011F407E57C185 /* Pods_MyToastSDWebImage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1ADB79D5BD60326D12AD58BE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7AEC3EEE8B42C1105DEEF615 /* Pods-MyToastSDWebImage.debug.xcconfig */,
+				6D88C644D9C991E43112166C /* Pods-MyToastSDWebImage.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7FC77849C623267C1CECF3BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7185D3A980EBBFC6EFE12D59 /* Pods_MyToastSDWebImage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A55680F22363D62E00EA6ED9 = {
+			isa = PBXGroup;
+			children = (
+				A55680FD2363D62E00EA6ED9 /* MyToastSDWebImage */,
+				A55680FC2363D62E00EA6ED9 /* Products */,
+				1ADB79D5BD60326D12AD58BE /* Pods */,
+				7FC77849C623267C1CECF3BF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A55680FC2363D62E00EA6ED9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A55680FB2363D62E00EA6ED9 /* MyToastSDWebImage.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A55680FD2363D62E00EA6ED9 /* MyToastSDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				A55680FE2363D62E00EA6ED9 /* AppDelegate.swift */,
+				A55681002363D62E00EA6ED9 /* SceneDelegate.swift */,
+				A55681022363D62E00EA6ED9 /* ViewController.swift */,
+				A55681042363D62E00EA6ED9 /* Main.storyboard */,
+				A55681072363D63000EA6ED9 /* Assets.xcassets */,
+				A55681092363D63000EA6ED9 /* LaunchScreen.storyboard */,
+				A556810C2363D63000EA6ED9 /* Info.plist */,
+			);
+			path = MyToastSDWebImage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A55680FA2363D62E00EA6ED9 /* MyToastSDWebImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A556810F2363D63000EA6ED9 /* Build configuration list for PBXNativeTarget "MyToastSDWebImage" */;
+			buildPhases = (
+				E8D5E4870A07F61F10647FAA /* [CP] Check Pods Manifest.lock */,
+				A55680F72363D62E00EA6ED9 /* Sources */,
+				A55680F82363D62E00EA6ED9 /* Frameworks */,
+				A55680F92363D62E00EA6ED9 /* Resources */,
+				2BB8225FFCC37AD73AC3F8D6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyToastSDWebImage;
+			productName = MyToastSDWebImage;
+			productReference = A55680FB2363D62E00EA6ED9 /* MyToastSDWebImage.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A55680F32363D62E00EA6ED9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = bombom;
+				TargetAttributes = {
+					A55680FA2363D62E00EA6ED9 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = A55680F62363D62E00EA6ED9 /* Build configuration list for PBXProject "MyToastSDWebImage" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A55680F22363D62E00EA6ED9;
+			productRefGroup = A55680FC2363D62E00EA6ED9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A55680FA2363D62E00EA6ED9 /* MyToastSDWebImage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A55680F92363D62E00EA6ED9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A556810B2363D63000EA6ED9 /* LaunchScreen.storyboard in Resources */,
+				A55681082363D63000EA6ED9 /* Assets.xcassets in Resources */,
+				A55681062363D62E00EA6ED9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2BB8225FFCC37AD73AC3F8D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyToastSDWebImage/Pods-MyToastSDWebImage-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyToastSDWebImage/Pods-MyToastSDWebImage-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyToastSDWebImage/Pods-MyToastSDWebImage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8D5E4870A07F61F10647FAA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyToastSDWebImage-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A55680F72363D62E00EA6ED9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A55681032363D62E00EA6ED9 /* ViewController.swift in Sources */,
+				A55680FF2363D62E00EA6ED9 /* AppDelegate.swift in Sources */,
+				A55681012363D62E00EA6ED9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A55681042363D62E00EA6ED9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A55681052363D62E00EA6ED9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A55681092363D63000EA6ED9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A556810A2363D63000EA6ED9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A556810D2363D63000EA6ED9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A556810E2363D63000EA6ED9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A55681102363D63000EA6ED9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AEC3EEE8B42C1105DEEF615 /* Pods-MyToastSDWebImage.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyToastSDWebImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bom.MyToastSDWebImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A55681112363D63000EA6ED9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D88C644D9C991E43112166C /* Pods-MyToastSDWebImage.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyToastSDWebImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bom.MyToastSDWebImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A55680F62363D62E00EA6ED9 /* Build configuration list for PBXProject "MyToastSDWebImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A556810D2363D63000EA6ED9 /* Debug */,
+				A556810E2363D63000EA6ED9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A556810F2363D63000EA6ED9 /* Build configuration list for PBXNativeTarget "MyToastSDWebImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A55681102363D63000EA6ED9 /* Debug */,
+				A55681112363D63000EA6ED9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A55680F32363D62E00EA6ED9 /* Project object */;
+}
