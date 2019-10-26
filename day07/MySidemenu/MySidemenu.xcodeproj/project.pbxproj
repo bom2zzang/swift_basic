@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		8112EE11F0F70BA88B2E4035 /* Pods_MySidemenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0688C68144203299C1EF48D4 /* Pods_MySidemenu.framework */; };
 		A527D5642363F30C00E08477 /* MySideMenuNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A527D5632363F30C00E08477 /* MySideMenuNavigationController.swift */; };
+		A527D5662363F63600E08477 /* SidemenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A527D5652363F63600E08477 /* SidemenuViewController.swift */; };
+		A527D5682364096600E08477 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A527D5672364096600E08477 /* LoginViewController.swift */; };
+		A527D56A2364097700E08477 /* NoticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A527D5692364097700E08477 /* NoticeViewController.swift */; };
 		A556811F2363E8F400EA6ED9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A556811E2363E8F400EA6ED9 /* AppDelegate.swift */; };
 		A55681212363E8F400EA6ED9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55681202363E8F400EA6ED9 /* SceneDelegate.swift */; };
 		A55681232363E8F400EA6ED9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55681222363E8F400EA6ED9 /* ViewController.swift */; };
@@ -21,6 +24,9 @@
 		0688C68144203299C1EF48D4 /* Pods_MySidemenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MySidemenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF76BB4FAEA10E3837197A5 /* Pods-MySidemenu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySidemenu.debug.xcconfig"; path = "Target Support Files/Pods-MySidemenu/Pods-MySidemenu.debug.xcconfig"; sourceTree = "<group>"; };
 		A527D5632363F30C00E08477 /* MySideMenuNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySideMenuNavigationController.swift; sourceTree = "<group>"; };
+		A527D5652363F63600E08477 /* SidemenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidemenuViewController.swift; sourceTree = "<group>"; };
+		A527D5672364096600E08477 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A527D5692364097700E08477 /* NoticeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeViewController.swift; sourceTree = "<group>"; };
 		A556811B2363E8F400EA6ED9 /* MySidemenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySidemenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A556811E2363E8F400EA6ED9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A55681202363E8F400EA6ED9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,8 +82,11 @@
 				A556811E2363E8F400EA6ED9 /* AppDelegate.swift */,
 				A55681202363E8F400EA6ED9 /* SceneDelegate.swift */,
 				A55681222363E8F400EA6ED9 /* ViewController.swift */,
+				A527D5672364096600E08477 /* LoginViewController.swift */,
+				A527D5692364097700E08477 /* NoticeViewController.swift */,
 				A55681242363E8F400EA6ED9 /* Main.storyboard */,
 				A527D5632363F30C00E08477 /* MySideMenuNavigationController.swift */,
+				A527D5652363F63600E08477 /* SidemenuViewController.swift */,
 				A55681272363E90200EA6ED9 /* Assets.xcassets */,
 				A55681292363E90200EA6ED9 /* LaunchScreen.storyboard */,
 				A556812C2363E90200EA6ED9 /* Info.plist */,
@@ -209,7 +218,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A527D5682364096600E08477 /* LoginViewController.swift in Sources */,
+				A527D5662363F63600E08477 /* SidemenuViewController.swift in Sources */,
 				A55681232363E8F400EA6ED9 /* ViewController.swift in Sources */,
+				A527D56A2364097700E08477 /* NoticeViewController.swift in Sources */,
 				A556811F2363E8F400EA6ED9 /* AppDelegate.swift in Sources */,
 				A55681212363E8F400EA6ED9 /* SceneDelegate.swift in Sources */,
 				A527D5642363F30C00E08477 /* MySideMenuNavigationController.swift in Sources */,

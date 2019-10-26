@@ -1,19 +1,19 @@
+//
+//  LoginViewController.swift
+//  MySidemenu
+//
+//  Created by TJOEUN-304 on 2019/10/26.
+//  Copyright © 2019 bombom. All rights reserved.
+//
 
 import UIKit
-import SideMenu
 
-class MySideMenuNavigationController: SideMenuNavigationController {
-    
-    let appDele = UIApplication.shared.delegate as! AppDelegate
+class LoginViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        appDele.mySidemenu = self
-        
-        self.menuWidth = 250
-        self.presentationStyle = .viewSlideOutMenuPartialIn
 
+        // Do any additional setup after loading the view.
     }
     
 

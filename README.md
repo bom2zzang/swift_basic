@@ -52,9 +52,12 @@ products > app : 실행파일( 한프로젝트 -> 여러실행파일을 만들 �
     6. 프로젝트열면 있는 Pods 아래의 Podfile이 중요함. 자바의 xml 같은 느낌인듯?
     7. Podfile안에 필요한 라이브러리 내용 저장 후 다시 터미널에서 $ pod install
 
-    + Cocoa Pod : 사이드메뉴  
+    + Cocoa Pod : Sidemenu  
     안드로이드 사이드메뉴 : Nav Drawer(기본템플릿)  
     아이폰 스위프트 : Sidemenu
+    + Cocoa Pod : Alamofire + JSON SwfityJSON (Http통신 Lib)
+    
+
 
 
 ***
