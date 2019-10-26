@@ -44,13 +44,17 @@ products > app : 실행파일( 한프로젝트 -> 여러실행파일을 만들 �
 
 
     1. 프로젝트 폴더에서 터미널 열기
-    2. Cocoa Pod 유틸 설치 : $ sudo gem install cocoapods
+    2. Cocoa Pod 유틸 설치 : $ sudo gem install cocoapods  
+                        업데이트 : $ pod repo update
     3. $ pod init > 뭔가생김
     4. $ pod install > 뭔가많이생김 
     5. 그 중 xcworkspace를 열어서 작업함.
     6. 프로젝트열면 있는 Pods 아래의 Podfile이 중요함. 자바의 xml 같은 느낌인듯?
     7. Podfile안에 필요한 라이브러리 내용 저장 후 다시 터미널에서 $ pod install
 
+    + Cocoa Pod : 사이드메뉴  
+    안드로이드 사이드메뉴 : Nav Drawer(기본템플릿)  
+    아이폰 스위프트 : Sidemenu
 
 
 ***
