@@ -7,17 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A5302B3823652C3B00156FE2 /* MyTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5302B3723652C3B00156FE2 /* MyTabbarController.swift */; };
 		A5560BF7235ABA5C004FFE72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5560BF6235ABA5C004FFE72 /* AppDelegate.swift */; };
 		A5560BF9235ABA5C004FFE72 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5560BF8235ABA5C004FFE72 /* SceneDelegate.swift */; };
 		A5560BFB235ABA5C004FFE72 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5560BFA235ABA5C004FFE72 /* ViewController.swift */; };
 		A5560BFE235ABA5C004FFE72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5560BFC235ABA5C004FFE72 /* Main.storyboard */; };
 		A5560C00235ABA70004FFE72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5560BFF235ABA70004FFE72 /* Assets.xcassets */; };
 		A5560C03235ABA71004FFE72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5560C01235ABA71004FFE72 /* LaunchScreen.storyboard */; };
-		A5DDD4D0235ACE5B00974328 /* MyTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DDD4CF235ACE5B00974328 /* MyTabbarController.swift */; };
 		A5DDD4D2235AD22300974328 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5DDD4D1235AD22300974328 /* FourthViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A5302B3723652C3B00156FE2 /* MyTabbarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTabbarController.swift; sourceTree = "<group>"; };
 		A5560BF3235ABA5C004FFE72 /* MyTabbar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTabbar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5560BF6235ABA5C004FFE72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5560BF8235ABA5C004FFE72 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,7 +27,6 @@
 		A5560BFF235ABA70004FFE72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5560C02235ABA71004FFE72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5560C04235ABA71004FFE72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A5DDD4CF235ACE5B00974328 /* MyTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTabbarController.swift; sourceTree = "<group>"; };
 		A5DDD4D1235AD22300974328 /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -44,7 +44,6 @@
 		A5560BEA235ABA5C004FFE72 = {
 			isa = PBXGroup;
 			children = (
-				A5DDD4CF235ACE5B00974328 /* MyTabbarController.swift */,
 				A5560BF5235ABA5C004FFE72 /* MyTabbar */,
 				A5560BF4235ABA5C004FFE72 /* Products */,
 			);
@@ -61,6 +60,7 @@
 		A5560BF5235ABA5C004FFE72 /* MyTabbar */ = {
 			isa = PBXGroup;
 			children = (
+				A5302B3723652C3B00156FE2 /* MyTabbarController.swift */,
 				A5560BF6235ABA5C004FFE72 /* AppDelegate.swift */,
 				A5560BF8235ABA5C004FFE72 /* SceneDelegate.swift */,
 				A5560BFA235ABA5C004FFE72 /* ViewController.swift */,
@@ -145,8 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5560BFB235ABA5C004FFE72 /* ViewController.swift in Sources */,
-				A5DDD4D0235ACE5B00974328 /* MyTabbarController.swift in Sources */,
 				A5560BF7235ABA5C004FFE72 /* AppDelegate.swift in Sources */,
+				A5302B3823652C3B00156FE2 /* MyTabbarController.swift in Sources */,
 				A5560BF9235ABA5C004FFE72 /* SceneDelegate.swift in Sources */,
 				A5DDD4D2235AD22300974328 /* FourthViewController.swift in Sources */,
 			);
