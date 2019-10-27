@@ -62,6 +62,10 @@ products > app : 실행파일( 한프로젝트 -> 여러실행파일을 만들 �
       ,Privacy - Location When In Use Usage Description 추가함.
       - GoogleMap > Maps SDK for iOS 사용
 
+  * day08  
+    + MyFirebase  
+     웹앱 Backend Service : 회원가입/로그인, DB(NoSQL-Realtime DB, FireStort),Storage(파일저장소): 이미지업로드&다운로드, 푸쉬알림, 모바일광고, 분석
+
 
 
 
