@@ -139,29 +139,60 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mLT-Em-gOP">
-                                <rect key="frame" x="143" y="139" width="112" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mLT-Em-gOP">
+                                <rect key="frame" x="47" y="177" width="112" height="30"/>
                                 <state key="normal" title="리스트 데이터 추가"/>
                                 <connections>
                                     <action selector="onBtnAdd:" destination="MLc-zp-4hW" eventType="touchUpInside" id="oQ5-AJ-NNo"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oqq-0r-KEN">
-                                <rect key="frame" x="143" y="177" width="112" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="리스트 데이터 읽기"/>
-                                <connections>
-                                    <action selector="onBtnRead:" destination="MLc-zp-4hW" eventType="touchUpInside" id="HVb-wK-n0O"/>
                                 </connections>
                             </button>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="fbD-5m-cgr">
                                 <rect key="frame" x="0.0" y="229" width="414" height="633"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="MyTableViewCell" rowHeight="100" id="1BK-ne-Tfh" customClass="MyTableViewCell" customModule="MyFirebase" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="100"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="1BK-ne-Tfh" id="j5u-hp-uZ7">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="100"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5wS-cA-iQ0">
+                                                    <rect key="frame" x="29" y="10" width="80" height="80"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iAl-s5-dXh">
+                                                    <rect key="frame" x="129" y="25" width="241" height="48"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="imageV" destination="5wS-cA-iQ0" id="31R-xH-xV4"/>
+                                            <outlet property="labelN" destination="iAl-s5-dXh" id="STh-NZ-uK5"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
                             </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oqq-0r-KEN">
+                                <rect key="frame" x="241" y="177" width="112" height="30"/>
+                                <state key="normal" title="리스트 데이터 읽기"/>
+                                <connections>
+                                    <action selector="onBtnRead:" destination="MLc-zp-4hW" eventType="touchUpInside" id="HVb-wK-n0O"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="zck-Nz-X6y" firstAttribute="trailing" secondItem="oqq-0r-KEN" secondAttribute="trailing" constant="61" id="17a-e0-Lcz"/>
+                            <constraint firstItem="oqq-0r-KEN" firstAttribute="top" secondItem="zck-Nz-X6y" secondAttribute="top" constant="89" id="Abs-hR-CHe"/>
+                            <constraint firstItem="mLT-Em-gOP" firstAttribute="top" secondItem="zck-Nz-X6y" secondAttribute="top" constant="89" id="EIN-aG-Dk2"/>
+                            <constraint firstItem="mLT-Em-gOP" firstAttribute="leading" secondItem="zck-Nz-X6y" secondAttribute="leading" constant="47" id="Ers-0Q-ezz"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="zck-Nz-X6y"/>
                     </view>
                     <navigationItem key="navigationItem" id="7bV-3p-PET"/>

@@ -30,15 +30,28 @@ class ListViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     //MARK: - DataSource
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 0
+        return self.idolArray.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = UITableViewCell()
+        let cell = self.tableView.dequeueReusableCell(withIdentifier: "MyTableViewCell", for: indexPath) as! MyTableViewCell
+        cell.labelN.text =  self.idolArray[indexPath.row].name
+        let imageName = self.idolArray[indexPath.row].imageString
+        
+        cell.imageV.image =  UIImage(named: imageName)
+
+        cell.selectionStyle = .none
         return cell
     }
     
     //MARK: - TableViewDelegate
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 100
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        print("\(indexPath.row)번째 선택됨.")
+    }
 
     @IBOutlet weak var tableView: UITableView!
     override func viewDidLoad() {
@@ -60,7 +73,7 @@ class ListViewController: UIViewController, UITableViewDelegate, UITableViewData
     }
     
     func setValueFromList() {
-        var idol = IdolData()	
+        var idol = IdolData()
         idol.name = "시우민"
         idol.imageString = "3.png"
         let idolDic = idol.getDic()
@@ -81,6 +94,33 @@ class ListViewController: UIViewController, UITableViewDelegate, UITableViewData
     }
     
     func getValueIntoList() {
+        self.idolArray.removeAll()
+        
+        let db = Firestore.firestore()
+        db.collection("idols").getDocuments() {
+            //후행클로저
+            (querySnapshot, err) in
+            if let error = err {
+                print("getValueIntoList() 에러 발생", error.localizedDescription)
+            }else{
+                print("getValueIntoList()성공")
+                for doc in querySnapshot!.documents {
+                    print("\(doc.documentID) => \(doc.data())")
+                    
+                    let dataDic = doc.data() as NSDictionary
+                    let name = dataDic["name"] as? String ?? ""
+                    let imageString = dataDic["imageString"] as? String ?? ""
+                    
+                    var idol = IdolData()
+                    idol.name = name;
+                    idol.imageString = imageString;
+                    self.idolArray.append(idol)
+                }
+                //for문이 끝났을 때 reload.
+                self.tableView.reloadData()
+            }
+        }
+        
         
     }
     
