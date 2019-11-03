@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,9 +13,20 @@
 		A5CB1348236E72AA00704D75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5CB1346236E72AA00704D75 /* Main.storyboard */; };
 		A5CB134A236E72B700704D75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5CB1349236E72B700704D75 /* Assets.xcassets */; };
 		A5CB134D236E72B700704D75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5CB134B236E72B700704D75 /* LaunchScreen.storyboard */; };
+		A5CB1362236E768000704D75 /* logo1.png in Resources */ = {isa = PBXBuildFile; fileRef = A5CB1360236E768000704D75 /* logo1.png */; };
+		A5CB1363236E768000704D75 /* logo2.png in Resources */ = {isa = PBXBuildFile; fileRef = A5CB1361236E768000704D75 /* logo2.png */; };
+		A5CB1367236E857000704D75 /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CB1366236E857000704D75 /* MyTableViewCell.swift */; };
+		A5CB1369236E85A600704D75 /* Menu1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CB1368236E85A600704D75 /* Menu1ViewController.swift */; };
+		A5CB136B236E85B400704D75 /* Menu2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CB136A236E85B400704D75 /* Menu2ViewController.swift */; };
+		A5CB136D236E85E500704D75 /* Menu3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CB136C236E85E500704D75 /* Menu3ViewController.swift */; };
+		A5CB136F236E85F500704D75 /* Menu4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CB136E236E85F500704D75 /* Menu4ViewController.swift */; };
+		A5CB1371236E85FE00704D75 /* Menu5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CB1370236E85FE00704D75 /* Menu5ViewController.swift */; };
+		C4DF8D47C110E1349DBA0544 /* Pods_MyCafe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5E5A8542CE20DC9534AB1B0 /* Pods_MyCafe.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		560723671A2D37C089B0375E /* Pods-MyCafe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCafe.debug.xcconfig"; path = "Target Support Files/Pods-MyCafe/Pods-MyCafe.debug.xcconfig"; sourceTree = "<group>"; };
+		A2DAA3B3690DDD50B9EC94F2 /* Pods-MyCafe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyCafe.release.xcconfig"; path = "Target Support Files/Pods-MyCafe/Pods-MyCafe.release.xcconfig"; sourceTree = "<group>"; };
 		A5CB133D236E72AA00704D75 /* MyCafe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyCafe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5CB1340236E72AA00704D75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5CB1342236E72AA00704D75 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +35,15 @@
 		A5CB1349236E72B700704D75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5CB134C236E72B700704D75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5CB134E236E72B700704D75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5CB1360236E768000704D75 /* logo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo1.png; sourceTree = "<group>"; };
+		A5CB1361236E768000704D75 /* logo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo2.png; sourceTree = "<group>"; };
+		A5CB1366236E857000704D75 /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		A5CB1368236E85A600704D75 /* Menu1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu1ViewController.swift; sourceTree = "<group>"; };
+		A5CB136A236E85B400704D75 /* Menu2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu2ViewController.swift; sourceTree = "<group>"; };
+		A5CB136C236E85E500704D75 /* Menu3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu3ViewController.swift; sourceTree = "<group>"; };
+		A5CB136E236E85F500704D75 /* Menu4ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu4ViewController.swift; sourceTree = "<group>"; };
+		A5CB1370236E85FE00704D75 /* Menu5ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu5ViewController.swift; sourceTree = "<group>"; };
+		E5E5A8542CE20DC9534AB1B0 /* Pods_MyCafe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyCafe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4DF8D47C110E1349DBA0544 /* Pods_MyCafe.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +63,8 @@
 			children = (
 				A5CB133F236E72AA00704D75 /* MyCafe */,
 				A5CB133E236E72AA00704D75 /* Products */,
+				F7593C515E48AE6FC8241457 /* Pods */,
+				E5AC1FA149AE121AB8B84753 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,7 +79,14 @@
 		A5CB133F236E72AA00704D75 /* MyCafe */ = {
 			isa = PBXGroup;
 			children = (
+				A5CB135F236E768000704D75 /* image */,
 				A5CB1340236E72AA00704D75 /* AppDelegate.swift */,
+				A5CB1366236E857000704D75 /* MyTableViewCell.swift */,
+				A5CB1368236E85A600704D75 /* Menu1ViewController.swift */,
+				A5CB136A236E85B400704D75 /* Menu2ViewController.swift */,
+				A5CB136C236E85E500704D75 /* Menu3ViewController.swift */,
+				A5CB136E236E85F500704D75 /* Menu4ViewController.swift */,
+				A5CB1370236E85FE00704D75 /* Menu5ViewController.swift */,
 				A5CB1342236E72AA00704D75 /* SceneDelegate.swift */,
 				A5CB1344236E72AA00704D75 /* ViewController.swift */,
 				A5CB1346236E72AA00704D75 /* Main.storyboard */,
@@ -67,6 +97,32 @@
 			path = MyCafe;
 			sourceTree = "<group>";
 		};
+		A5CB135F236E768000704D75 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				A5CB1360236E768000704D75 /* logo1.png */,
+				A5CB1361236E768000704D75 /* logo2.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		E5AC1FA149AE121AB8B84753 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E5E5A8542CE20DC9534AB1B0 /* Pods_MyCafe.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7593C515E48AE6FC8241457 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				560723671A2D37C089B0375E /* Pods-MyCafe.debug.xcconfig */,
+				A2DAA3B3690DDD50B9EC94F2 /* Pods-MyCafe.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +130,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A5CB1351236E72B700704D75 /* Build configuration list for PBXNativeTarget "MyCafe" */;
 			buildPhases = (
+				B75BFB4D89EA7677384FD972 /* [CP] Check Pods Manifest.lock */,
 				A5CB1339236E72AA00704D75 /* Sources */,
 				A5CB133A236E72AA00704D75 /* Frameworks */,
 				A5CB133B236E72AA00704D75 /* Resources */,
+				C4382AFBFFD798484E9FFA32 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,12 +184,56 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5CB134D236E72B700704D75 /* LaunchScreen.storyboard in Resources */,
+				A5CB1363236E768000704D75 /* logo2.png in Resources */,
 				A5CB134A236E72B700704D75 /* Assets.xcassets in Resources */,
+				A5CB1362236E768000704D75 /* logo1.png in Resources */,
 				A5CB1348236E72AA00704D75 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B75BFB4D89EA7677384FD972 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyCafe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4382AFBFFD798484E9FFA32 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyCafe/Pods-MyCafe-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyCafe/Pods-MyCafe-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyCafe/Pods-MyCafe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A5CB1339236E72AA00704D75 /* Sources */ = {
@@ -139,8 +241,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5CB1345236E72AA00704D75 /* ViewController.swift in Sources */,
+				A5CB1367236E857000704D75 /* MyTableViewCell.swift in Sources */,
+				A5CB136B236E85B400704D75 /* Menu2ViewController.swift in Sources */,
+				A5CB136D236E85E500704D75 /* Menu3ViewController.swift in Sources */,
+				A5CB1371236E85FE00704D75 /* Menu5ViewController.swift in Sources */,
+				A5CB136F236E85F500704D75 /* Menu4ViewController.swift in Sources */,
 				A5CB1341236E72AA00704D75 /* AppDelegate.swift in Sources */,
 				A5CB1343236E72AA00704D75 /* SceneDelegate.swift in Sources */,
+				A5CB1369236E85A600704D75 /* Menu1ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +390,7 @@
 		};
 		A5CB1352236E72B700704D75 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 560723671A2D37C089B0375E /* Pods-MyCafe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -291,7 +400,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = bom.MyCafe;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MyCafe;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -299,6 +408,7 @@
 		};
 		A5CB1353236E72B700704D75 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2DAA3B3690DDD50B9EC94F2 /* Pods-MyCafe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -308,7 +418,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = bom.MyCafe;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = MyCafe;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
