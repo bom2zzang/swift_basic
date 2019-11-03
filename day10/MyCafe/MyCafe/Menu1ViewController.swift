@@ -7,7 +7,7 @@ class Menu1ViewController: UIViewController,UITableViewDelegate, UITableViewData
     var data:String = ""
 
     
-    let names: Array<String> = ["앗메리카노",
+    let names1: Array<String> = ["앗메리카노",
                                 "원조커피",
                                 "바닐라라떼",
                                 "블랙펄 카페라떼",
@@ -19,7 +19,7 @@ class Menu1ViewController: UIViewController,UITableViewDelegate, UITableViewData
                                 "크리미모카라떼",
                                 "코코넛커피스무디",
                                 "코코넛라떼"]
-    let prices: Array<NSString> = ["HOT : 1,500\nICED : 2,000",
+    let prices1: Array<NSString> = ["HOT : 1,500\nICED : 2,000",
                                    "HOT : 2,000\nICED : 2,500",
                                    "HOT : 3,000\nICED : 3,500",
                                    "ICED : 3,500",
@@ -31,7 +31,7 @@ class Menu1ViewController: UIViewController,UITableViewDelegate, UITableViewData
                                    "HOT : 3,800\nICED : 3,800",
                                    "ICED : 4,000",
                                    "ICED : 3,800"]
-    let images: Array<String> = ["http://paikdabang.com/wp-content/uploads/2018/05/%EC%95%97%EB%A9%94%EB%A6%AC%EC%B9%B4%EB%85%B8-1.jpg",
+    let images1: Array<String> = ["http://paikdabang.com/wp-content/uploads/2018/05/%EC%95%97%EB%A9%94%EB%A6%AC%EC%B9%B4%EB%85%B8-1.jpg",
                                  "http://paikdabang.com/wp-content/uploads/2018/05/%EC%9B%90%EC%A1%B0%EC%BB%A4%ED%94%BC-1.jpg",
                                  "http://paikdabang.com/wp-content/uploads/2018/05/%EB%B0%94%EB%8B%90%EB%9D%BC%EB%9D%BC%EB%96%BC-1.jpg",
                                  "http://paikdabang.com/wp-content/uploads/2019/03/%EB%B8%94%EB%9E%99%ED%8E%84_%EC%B9%B4%ED%8E%98%EB%9D%BC%EB%96%BC.jpg",
@@ -43,7 +43,7 @@ class Menu1ViewController: UIViewController,UITableViewDelegate, UITableViewData
                                  "http://paikdabang.com/wp-content/uploads/2018/05/%ED%81%AC%EB%A6%AC%EB%AF%B8%EB%AA%A8%EC%B9%B4%EB%9D%BC%EB%96%BC-2.jpg",
                                  "http://paikdabang.com/wp-content/uploads/2018/05/%EC%BD%94%EC%BD%94%EB%84%9B%EC%BB%A4%ED%94%BC%EC%8A%A4%EB%AC%B4%EB%94%94-1.jpg",
                                  "http://paikdabang.com/wp-content/uploads/2018/05/%EC%BD%94%EC%BD%94%EB%84%9B%EB%9D%BC%EB%96%BC-1.jpg"]
-    let messages: Array<String> = ["빽다방만의 맛과 향을 더한 100% 아라비카 로스팅 원두로 뽑아내 깊고 진한 맛의 앗!메리카노",
+    let messages1: Array<String> = ["빽다방만의 맛과 향을 더한 100% 아라비카 로스팅 원두로 뽑아내 깊고 진한 맛의 앗!메리카노",
                                    "시원달콤한 빽다방 대표메뉴, 믹스커피 종결자!",
                                    "부드러운 우유와 달콤하고 은은한 바닐라가 조화를 이루는 음료",
                                    "흑당 베이스의 풍미 있는 달콤함과 쫄깃한 타피오카 펄, 향긋한 에스프레소가 어우러진 블랙펄카페라떼",
@@ -167,7 +167,7 @@ class Menu1ViewController: UIViewController,UITableViewDelegate, UITableViewData
                                  "http://paikdabang.com/wp-content/uploads/2019/05/%EB%B8%94%EB%A3%A8%EB%B2%A0%EB%A6%AC%EC%9A%94%EA%B1%B0%ED%8A%B8%EC%8A%A4%EB%AC%B4%EB%94%94.jpg",
                                  "http://paikdabang.com/wp-content/uploads/2019/05/%EB%A7%9D%EA%B3%A0%EC%9A%94%EA%B1%B0%ED%8A%B8%EC%8A%A4%EB%AC%B4%EB%94%94.jpg",
                                  "http://paikdabang.com/wp-content/uploads/2018/05/%EB%94%B8%EA%B8%B0%EC%9A%94%EA%B1%B0%ED%8A%B8%EC%8A%A4%EB%AC%B4%EB%94%94-1.png"]
-    let messages: Array<String> = ["초코에 퐁당 빠지고 싶을때~!? 진짜~! 다크초콜렛이 올라간 완~전 진한 초코라떼",
+    let messages2: Array<String> = ["초코에 퐁당 빠지고 싶을때~!? 진짜~! 다크초콜렛이 올라간 완~전 진한 초코라떼",
                                    "흑당 베이스의 풍미 있는 달콤함과 쫄깃한 타피오카 펄, 부드러운 생크림이 더해진 블랙펄밀크티",
                                    "향긋한 꽃향기가 퍼지는 상큼달콤한 청포도 음료",
                                    "100% 국내산 녹차를 사용하여 진하고 부드러운 녹차라떼",
@@ -210,32 +210,116 @@ class Menu1ViewController: UIViewController,UITableViewDelegate, UITableViewData
     
     
     
+       let names3: Array<String> = ["노말한소프트",
+                                   "옥수크림",
+                                   "사라다빵",
+                                   "호두크런치",
+                                   "빽엔나",
+                                   "소세지빵",
+                                   "크리미슈",
+                                   "크리미단팥빵",
+                                   "계란사라다빵"]
+       let prices3: Array<NSString> = ["1,500",
+                                      "2,500",
+                                      "2,000",
+                                      "3,000",
+                                      "HOT : 3,000\nICED : 3,500",
+                                      "2,500",
+                                      "1,500",
+                                      "1,500",
+                                      "3,500"]
+       let images3: Array<String> = ["http://paikdabang.com/wp-content/uploads/2018/05/%EB%85%B8%EB%A7%90%ED%95%9C%EC%86%8C%ED%94%84%ED%8A%B8.jpg",
+                                    "http://paikdabang.com/wp-content/uploads/2018/05/%EC%98%A5%EC%88%98%ED%81%AC%EB%A6%BC.jpg",
+                                    "http://paikdabang.com/wp-content/uploads/2018/05/%EC%82%AC%EB%9D%BC%EB%8B%A4%EB%B9%B5.jpg",
+                                    "http://paikdabang.com/wp-content/uploads/2018/05/%ED%98%B8%EB%91%90%ED%81%AC%EB%9F%B0%EC%B9%98.jpg",
+                                    "http://paikdabang.com/wp-content/uploads/2018/05/%EB%BA%B5%EC%97%94%EB%82%98.jpg",
+                                    "http://paikdabang.com/wp-content/uploads/2018/05/%EC%86%8C%EC%84%B8%EC%A7%80%EB%B9%B5.jpg",
+                                    "http://paikdabang.com/wp-content/uploads/2018/05/%ED%81%AC%EB%A6%AC%EB%AF%B8%EC%8A%88.jpg",
+                                    "http://paikdabang.com/wp-content/uploads/2018/05/%ED%81%AC%EB%A6%AC%EB%AF%B8%EB%8B%A8%ED%8C%A5%EB%B9%B5.jpg",
+                                    "http://paikdabang.com/wp-content/uploads/2018/05/%EA%B3%84%EB%9E%80%EC%82%AC%EB%9D%BC%EB%8B%A4%EB%B9%B5.jpg"]
+       let messages3: Array<String> = ["입안에서 부드럽게 사르륵 녹는 마성의 아이스크림",
+                                      "달콤한 아이스크림에 고소한 옥수수가 톡톡 씹히는 재미난 메뉴",
+                                      "어린시절 빵집에서 사먹던 추억의 감자 사라다빵",
+                                      "호두, 땅콩, 크런치의 바삭바삭함이 즐거운 아이스크림",
+                                      "부드러운 아이스크림과 쌉싸름한 아메리카노가 조화를 이루는 빽다방식 아포가토",
+                                      "소시지에 치즈를 듬뿍 얹고 옥수수까지 더한 소세지빵",
+                                      "비스킷과 부드러운 크림의 환상 조합!",
+                                      "달콤한 팥과 크림이 듬뿍~",
+                                      "계란이 듬뿍 들어간 부드러운 식감의 촉촉한 계란사라다빵!"]
+      
+    
+    let names4: Array<String> = ["완전딸기바나나",
+                                "완전초코바나나",
+                                "피스타치오빽스치노",
+                                "카라멜빽스치노",
+                                "베리크런치빽스치노",
+                                "녹차빽스치노",
+                                "원조빽스치노",
+                                "민트초코빽스치노"]
+    let prices4: Array<NSString> = ["BASIC : 3,000\nSOFT : 3,500",
+                                   "BASIC : 2,800\nSOFT : 3,300",
+                                   "BASIC : 4,500\nSOFT : 5,000",
+                                   "BASIC : 4,500\nSOFT : 5,000",
+                                   "BASIC : 4,000\nSOFT : 4,500",
+                                   "BASIC : 3,000\nSOFT : 3,500",
+                                   "BASIC : 3,000\nSOFT : 3,500",
+                                   "BASIC : 3,500\nSOFT : 4,000"]
+    let images4: Array<String> = ["http://paikdabang.com/wp-content/uploads/2018/05/%EC%99%84%EC%A0%84%EB%94%B8%EB%B0%94.jpg",
+                                 "http://paikdabang.com/wp-content/uploads/2018/05/%EC%99%84%EC%A0%84%EC%B4%88%EB%B0%94.jpg",
+                                 "http://paikdabang.com/wp-content/uploads/2018/05/%ED%94%BC%EC%8A%A4%ED%83%80%EC%B9%98%EC%98%A4%EB%B9%BD%EC%8A%A4%EC%B9%98%EB%85%B8.jpg",
+                                 "http://paikdabang.com/wp-content/uploads/2019/05/%EC%B9%B4%EB%9D%BC%EB%A9%9C%EB%B9%BD%EC%8A%A4%EC%B9%98%EB%85%B8.png",
+                                 "http://paikdabang.com/wp-content/uploads/2019/05/%EB%B2%A0%EB%A6%AC%ED%81%AC%EB%9F%B0%EC%B9%98%EB%B9%BD%EC%8A%A4%EC%B9%98%EB%85%B8.png",
+                                 "http://paikdabang.com/wp-content/uploads/2018/05/%EB%85%B9%EC%B0%A8%EB%B9%BD%EC%8A%A4%EC%B9%98%EB%85%B8.jpg",
+                                 "http://paikdabang.com/wp-content/uploads/2018/05/%EC%9B%90%EC%A1%B0%EB%B9%BD%EC%8A%A4%EC%B9%98%EB%85%B8-1.jpg",
+                                 "http://paikdabang.com/wp-content/uploads/2019/02/%EB%AF%BC%ED%8A%B8%EC%B4%88%EC%BD%94-%EB%B9%BD%EC%8A%A4%EC%B9%98%EB%85%B8.png"]
+    let messages4: Array<String> = ["상큼한 딸기와 달달한 바나나의 완전 시원한 만남!",
+                                   "달콤한 초코와 달달한 바나나의 완전 시원한 만남",
+                                   "고소한 피스타치오와 진한 카카오닙스의 만남 !",
+                                   "카라멜의 진한 달콤함과 바삭한 토핑으로 더욱 풍부한 카라멜 맛을 즐길 수 있는 빽스치노",
+                                   "상큼 달콤한 딸기 밀크 베이스에 바삭한 비스켓크런치로 맛에 재미를 더한 뺵스치노",
+                                   "100% 국내산 녹차를 사용하여 부드럽고 진한 맛의 빽스치노!",
+                                   "원조커피의 시원한 변신~! 매력만점 커피 빽스치노",
+                                   "초코칩으로 더한 깊은 초콜릿의 맛과 민트의 상쾌함이 어우러진 진한 민트초코 빽스치노"]
     
     //MARK: -Datasource
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
-    
-        if data == "m1" {
-            return names.count
-        }else if data == "m2" {
-            return names2.count
-        }else if data == "m3" {
-            //return names3.count
-        }else if data == "m4" {
-            //return names4.count
+        var count = 0
+        if data == "1" {
+            count = names1.count
+        }else if data == "2" {
+            count = names2.count
+        }else if data == "3" {
+            count = names3.count
+        }else if data == "4" {
+            count = names4.count
         }
         
         
+            return count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "MyTableViewCell", for: indexPath) as! MyTableViewCell
-        
-        cell.labelName.text = names[indexPath.row]
-        cell.labelPrice.text = String(prices[indexPath.row])
-        cell.imageVMenu.sd_setImage(with: URL(string: images[indexPath.row]))
+        if data == "1" {
+            cell.labelName.text = names1[indexPath.row]
+            cell.labelPrice.text = String(prices1[indexPath.row])
+            cell.imageVMenu.sd_setImage(with: URL(string: images1[indexPath.row]))
+        }else if data == "2" {
+            cell.labelName.text = names2[indexPath.row]
+            cell.labelPrice.text = String(prices2[indexPath.row])
+            cell.imageVMenu.sd_setImage(with: URL(string: images2[indexPath.row]))
+        }else if data == "3" {
+            cell.labelName.text = names3[indexPath.row]
+            cell.labelPrice.text = String(prices3[indexPath.row])
+            cell.imageVMenu.sd_setImage(with: URL(string: images3[indexPath.row]))
+        }else if data == "4" {
+            cell.labelName.text = names4[indexPath.row]
+            cell.labelPrice.text = String(prices4[indexPath.row])
+            cell.imageVMenu.sd_setImage(with: URL(string: images4[indexPath.row]))
+        }
+
         cell.selectionStyle = .none
-        
         
         return cell
     }
@@ -246,7 +330,17 @@ class Menu1ViewController: UIViewController,UITableViewDelegate, UITableViewData
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         print("선택된 줄 : ", indexPath.row)
-        self.view.makeToast(messages[indexPath.row], duration:2.0, position:.bottom )
+        
+        if data == "1" {
+            self.view.makeToast(messages1[indexPath.row], duration:2.0, position:.bottom )
+        }else if data == "2" {
+            self.view.makeToast(messages2[indexPath.row], duration:2.0, position:.bottom )
+        }else if data == "3" {
+            //return names3.count
+        }else if data == "4" {
+            //return names4.count
+        }
+        
     }
 
 

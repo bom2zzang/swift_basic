@@ -21,16 +21,19 @@ class ViewController: UIViewController {
     
     //Segue로 화면이동 (데이터전달을 위하여)
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let vc = segue.destination as! Menu1ViewController
 
         if segue.identifier == "m1" {
-            vc.data = "m1"
+            let vc = segue.destination as! Menu1ViewController
+            vc.data = "1"
         }else if segue.identifier == "m2" {
-            vc.data = "m2"
+            let vc = segue.destination as! Menu1ViewController
+            vc.data = "2"
         }else if segue.identifier == "m3" {
-            vc.data = "m3"
+            let vc = segue.destination as! Menu1ViewController
+            vc.data = "3"
         }else if segue.identifier == "m4" {
-            vc.data = "m4"
+            let vc = segue.destination as! Menu1ViewController
+            vc.data = "4"
         }
     }
     
